@@ -3,10 +3,10 @@ import NavigationBar from "./NavigationBar/NavigationBar";
 
 function MainLayout({ children }) {
   return (
-    <>
-      <NavigationBar/>
+    <div class="bg-dark-primary">
+      <NavigationBar />
       <div>{children}</div>
-    </>
+    </div>
   );
 }
 

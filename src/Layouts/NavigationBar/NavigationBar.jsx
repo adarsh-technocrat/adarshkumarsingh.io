@@ -8,7 +8,7 @@ function NavigationBar() {
   const currentPath = useCurrentPath();
 
   return (
-    <div class="h-14 w-auto bg-light-primary dark:bg-dark-primary ml-32 mt-14">
+    <div class="h-14 w-auto bg-transparent pl-32 pt-14 ">
       {navigatinPath.map((item) => (
         <Link
           class={combineClasses([
