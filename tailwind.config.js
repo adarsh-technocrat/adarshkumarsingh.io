@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    clipPath: {
+      headerPolygon: "polygon(0 7%, 100% 0%, 100% 72%, 0 86%)",
+    },
+    extend: {
+      animation: {
+        "spin-slow": "spin 5s linear infinite",
+      },
+    },
     colors: {
       transparent: "transparent",
       light: {
@@ -28,5 +35,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-clip-path")],
 };
