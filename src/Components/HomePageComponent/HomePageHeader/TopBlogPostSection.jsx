@@ -11,7 +11,7 @@ function TopBlogPostSection() {
       </div>
 
       <div className="flex">
-        <div class="text-dark-text-white pr-2">Read all posts</div>
+        <div class="text-dark-text-white pr-2 hover:underline hover:animate-pulse cursor-pointer">Read all posts</div>
         <img class="h-7" src="/assets/vector-arrow.png" alt="" />
       </div>
     </div>

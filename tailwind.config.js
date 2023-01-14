@@ -20,6 +20,9 @@ module.exports = {
         primary: "#111111",
         secondary: "#131629",
         carbonColor: "#121214",
+        lightGreen: "#DEFFDB",
+        lightPurpul: "#E2F1FF",
+        grephiteColor: "#2E3740",
         text: {
           white: "#ffffff",
           grey: "#888888",
