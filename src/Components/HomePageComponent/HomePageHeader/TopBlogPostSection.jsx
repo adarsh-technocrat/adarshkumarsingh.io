@@ -1,5 +1,5 @@
 import React from "react";
-import BlogPostCard from "../BlogPost/BlogPostCard";
+import BlogPostCard from "../../BlogPost/BlogPostCard";
 
 function TopBlogPostSection() {
   return (

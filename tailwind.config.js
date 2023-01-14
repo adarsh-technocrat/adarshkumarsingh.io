@@ -19,9 +19,11 @@ module.exports = {
       dark: {
         primary: "#111111",
         secondary: "#131629",
+        carbonColor: "#121214",
         text: {
           white: "#ffffff",
           grey: "#888888",
+          blue: "#56B8F8",
         },
       },
       fontSize: {

@@ -3,7 +3,7 @@ import TopBlogPostSection from "./TopBlogPostSection";
 
 function HomePageHeader() {
   return (
-    <div class="bg-dark-secondary pl-32 pr-32 pb-44 pt-32  mr-32 clip-path-headerPolygon  rounded-tr-2xl  rounded-br-3xl  ">
+    <div class="pl-32 pr-32 pb-44 pt-32  mr-32 rounded-tr-2xl  rounded-br-3xl  ">
       <div class="flex justify-between flex-row ">
         <div>
           <div class="text-5xl font-bold text-dark-text-white">Adarsh Kumar Singh</div>
