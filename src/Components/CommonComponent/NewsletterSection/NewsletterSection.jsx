@@ -2,7 +2,7 @@ import React from "react";
 
 function NewsletterSection() {
   return (
-    <div class="pl-32 pr-32 mt-40">
+    <div class="pl-32 pr-32 mt-20">
       <div class="bg-dark-secondary h-80 w-auto rounded-md p-16">
         <text class="text-dark-text-white font-bold text-3xl  tracking-tight">Subscribe to the newsletter</text>
        <p class="text-dark-text-white font-normal text-xl pt-2  tracking-tight">Get emails from me about web development, tech, and early access to new articles.</p>
