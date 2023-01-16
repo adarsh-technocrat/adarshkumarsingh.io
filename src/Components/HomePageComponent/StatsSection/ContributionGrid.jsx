@@ -3,6 +3,7 @@ import { getHeatMapColor } from "../../../Services/Utils/github-action";
 import HeatCell from "./HeatCell";
 
 function ContributionGrid({ calenderData, eventData }) {
+    
   const getMonthData = () => {
     if (eventData != null) {
       const getMonthWiseData = eventData.filter(
