@@ -3,7 +3,7 @@ import { getHeatMapColor } from "../../../Services/Utils/github-action";
 import HeatCell from "./HeatCell";
 
 function ContributionGrid({ calenderData, eventData }) {
-    
+
   const getMonthData = () => {
     if (eventData != null) {
       const getMonthWiseData = eventData.filter(
@@ -29,7 +29,7 @@ function ContributionGrid({ calenderData, eventData }) {
           if (monthDataIndex !== -1) {
             return (
               <HeatCell
-                className={`h-[10px] w-[10px] rounded-sm ${getHeatMapColor(
+                className={`h-[10px] w-[10px] rounded-full hover:animate-pulse ${getHeatMapColor(
                   checkIfIndexPresent(monthDataIndex).count
                 )} m-1`}
                 day={day}
@@ -44,7 +44,7 @@ function ContributionGrid({ calenderData, eventData }) {
           } else {
             return (
               <HeatCell
-                className={`h-[10px] w-[10px] rounded-sm bg-dark-heatMapD0 m-1 `}
+                className={`h-[10px] w-[10px] rounded-sm bg-dark-heatMapD0 m-1 hover:animate-pulse`}
                 day={day}
                 title={`No contribution on ${calenderData.month} ${day}, ${calenderData.year} `}
                 key={day}

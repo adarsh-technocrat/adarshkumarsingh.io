@@ -71,7 +71,7 @@ export const getCurrentYearCalendar = () => {
 export const getHeatMapColor = (value) => {
   if (value > 3) return "bg-dark-heatMapD3";
   if (value > 2) return "bg-dark-heatMapD2";
-  if (value > 1) return "bg-dark-heatMapD1";
+  if (value >= 1) return "bg-dark-heatMapD1";
   return "bg-dark-heatMapD0";
 };
 
