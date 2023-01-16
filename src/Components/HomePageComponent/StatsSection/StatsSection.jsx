@@ -8,7 +8,7 @@ function StatsSection() {
   return (
     <div class="pl-32 pr-32 flex h-96 w-auto mt-40 ">
       <GitHubStats />
-      <div class="flex flex-col w-full justify-between pl-6 pr-6">
+      <div class="flex flex-col w-full justify-between pl-4 pr-4">
         <div class="">
           <TwitterStats />
         </div>

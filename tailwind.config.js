@@ -23,6 +23,11 @@ module.exports = {
         lightGreen: "#DEFFDB",
         lightPurpul: "#E2F1FF",
         grephiteColor: "#2E3740",
+        heatMapD0: "#F0F0F0",
+        heatMapD1:"#6DA0E6",
+        heatMapD2:"#386DC9",
+        heatMapD3:"#2A52AE",
+        
         text: {
           white: "#ffffff",
           grey: "#888888",
