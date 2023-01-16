@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getNowPlaying } from "../../../Services/Actions/sportify-actions";
+import { getNowPlaying } from "../../../Services/Utils/sportify-actions";
 
 function SpotifySection() {
   const [data, setData] = useState(null);

@@ -2,6 +2,7 @@ import React from "react";
 import CourseSection from "../../Components/HomePageComponent/CourseSection/CourseSection";
 import HomePageHeader from "../../Components/HomePageComponent/HomePageHeader/HomePageHeader";
 import StatsSection from "../../Components/HomePageComponent/StatsSection/StatsSection";
+import ProjectSection from "../../Components/ProjectSection/ProjectSection";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <HomePageHeader />
       <img class="absolute right-40 top-16" src="/assets/vector_illust.png" alt="" />
       <CourseSection />
+      <ProjectSection />
       <StatsSection />
     </section>
   );
