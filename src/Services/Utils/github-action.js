@@ -1,8 +1,9 @@
 import axios from "axios";
 
-// const github_access_token = process.env.REACT_APP_SPORTIFY_REFRESH_TOKEN;
+const github_access_token = process.env.REACT_APP_SPORTIFY_REFRESH_TOKEN;
 
-const GITHUB_EVENT_ENDPOINT = `https://api.github.com/users/adarsh-technocrat/events/public`;
+const GITHUB_EVENT_ENDPOINT = `https://api.github.com/users/adarsh-technocrat/events`;
+const GITHUB_ME_ENDPOINT = `https://api.github.com/user`;
 
 const getGithubContributionEventsData = async () => {
   try {
@@ -90,3 +91,21 @@ function combineDataByDate(data) {
   }
   return Object.values(result);
 }
+
+export const getGitHubUserInfo = async () => {
+  try {
+    
+    const response = await axios({
+      method: "GET",
+      url: GITHUB_ME_ENDPOINT,
+      headers: {
+        Authorization: `Bearer ${github_access_token}`,
+      },
+    });
+
+    return response.data;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+};
