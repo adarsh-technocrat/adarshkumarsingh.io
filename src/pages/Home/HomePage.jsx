@@ -1,14 +1,16 @@
 import React from "react";
 import CourseSection from "../../Components/HomePageComponent/CourseSection/CourseSection";
-import HomePageHeader from "../../Components/HomePageComponent/HomePageHeader/HomePageHeader";
 import StatsSection from "../../Components/HomePageComponent/StatsSection/StatsSection";
 import ProjectSection from "../../Components/ProjectSection/ProjectSection";
+import TopBlogPostSection from "../../Components/HomePageComponent/TopBlogPostSection/TopBlogPostSection";
+import HeroLayout from "../../Layouts/HeroLayout";
 
 function HomePage() {
   return (
     <section class="h-auto w-auto bg-dark-primary pt-10 pb-32 ">
-      <HomePageHeader />
-      <img class="absolute right-40 top-16" src="/assets/vector_illust.png" alt="" />
+      <HeroLayout>
+        <TopBlogPostSection />
+      </HeroLayout>
       <CourseSection />
       <ProjectSection />
       <StatsSection />

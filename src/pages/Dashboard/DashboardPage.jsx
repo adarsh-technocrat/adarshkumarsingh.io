@@ -1,7 +1,12 @@
 import React from "react";
+import HeroLayout from "../../Layouts/HeroLayout";
 
 function DashboardPage() {
-  return <div>DashboardPage</div>;
+  return (
+    <div>
+      <HeroLayout></HeroLayout>
+    </div>
+  );
 }
 
 export default DashboardPage;

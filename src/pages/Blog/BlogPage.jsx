@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import HeroLayout from "../../Layouts/HeroLayout";
 
 function BlogPage() {
   return (
-    <div>BlogPage</div>
-  )
+    <HeroLayout>
+      <div></div>
+    </HeroLayout>
+  );
 }
 
-export default BlogPage
+export default BlogPage;
