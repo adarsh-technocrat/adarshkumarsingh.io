@@ -8,7 +8,7 @@ function HomePageHeader() {
         <div>
           <div class="text-5xl font-bold text-dark-text-white">Adarsh Kumar Singh</div>
           <div class="text-xl pt-3 font-medium text-dark-text-white relative">
-            Lead Software Engineer @ Red Baton
+            Senior Software Engineer @ Styava
             <img class="absolute left-56 h-4" src="/assets/vectore-line.png" alt="" />
           </div>
           <p class="text-lg pt-6 text-dark-text-grey w-1/2">
