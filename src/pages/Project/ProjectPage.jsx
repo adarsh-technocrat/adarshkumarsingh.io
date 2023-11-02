@@ -3,9 +3,9 @@ import HeroLayout from "../../Layouts/HeroLayout";
 
 function ProjectPage() {
   return (
-    <div>
+    <section className="h-auto w-auto bg-dark-primary pt-10 pb-32 ">
       <HeroLayout></HeroLayout>
-    </div>
+    </section>
   );
 }
 
